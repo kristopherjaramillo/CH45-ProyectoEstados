@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservaciones</title>
+    <link rel="stylesheet" href="./styles/informes.css">
+</head>
+<body>
+    <div class="menuLateral">
+        <ul>
+         <li><a href="Inicio1.html">Inicio</a></li>
+         <li><a href="Visita1.html">Visita</a> </li>
+         <li><a href="Informes1.html">Informes</a></li>
+        </ul>
+     </div>
+     <div class="titulo"><h1>Realizar Reservaciones</h1></div>
+     <div class="form">
+    <form action="" method="">
+            <label for="">Nombre Completo</label>
+            <br>
+            <input type="text" name="user_name" id="name-ipt" placeholder="Ej. Kristopher Jaramillo Vega">
+            <br>
+            <label for="">Correo Electronico</label>
+            <br>
+            <input type="text" name="address-ipt" id="address-ipt" placeholder="nombre12@gmail.com">
+            <br>
+            <label for="">Número de personas</label>
+            <br>
+            <input type="number" id="number-ipt" max="10" min="1" placeholder="Max 10 personas">
+          <br>
+            <label for="">Código de descuento</label>
+            <br>
+            <input type="password" id="discount-ipt" placeholder="Codigo de 6 caracteres">
+            <br>
+            <label for="">Fecha de llegada</label>
+            <br>
+            <input type="date" id="date-ipt">
+            <br>
+
+            <label for="">Selecciona tu destino</label>
+            <select name="tour" id="tour">
+            <option value="Goa">Monte Tláloc</option>
+            <option value="Hola">Zona arqueologica de Tlapacoya</option>
+            <option value="Fer">El Nido</option>
+        </select>
+        <br>
+        <label for="opcionA-ipt">Renta de vehículos</label>
+        <br>       
+        <input type="checkbox" name="" id="opcionA-ipt">
+        <br>    
+        <label for="opcionB-ipt">Todas las comidas del día</label>
+           <br> 
+        <input type="checkbox" id="opcionB-ipt">
+        <br>
+            <label for="OpcionC-ipt">Renta de cabañas</label>
+            <br>
+            <input type="checkbox" id="OpcionC-ipt">
+            <br>
+            <label for="">Aceptar Terminos y Condiciones</label>
+            <br>
+            <label for="agree">Acepto</label>
+            <br>
+            <input type="radio" name="radio-ipt" id="agree">
+            <br>
+            <label for="disagree">No Acepto</label>
+            <br>
+            <input type="radio" name="radio-ipt" id="disagree">
+            <br>
+            <button> Completar reservación</button>
+        </form>
+    </div>
+</body>
+</html>

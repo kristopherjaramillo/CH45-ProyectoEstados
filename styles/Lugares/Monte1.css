@@ -1,0 +1,50 @@
+body{background-image: url(../images/Monte-Tláloc.webp);
+  background-size: cover;}
+.menuLateral {
+  height: 100%;
+  width: fit-content;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: slategray;
+  overflow-x: hidden;
+  padding: 20px 20px 0px 0px; 
+}
+
+.menuLateral a {
+ 
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.menuLateral a:hover {
+  color: red;}
+
+  .titulo{
+      font-size: 30px;
+      margin-left: 140px;
+      padding: 0px 25px;
+      text-align: center;
+      background-color: lightblue ;
+      font-family: Impact,'Arial Narrow Bold', sans-serif;}
+
+  .acercaDe, .historia, .fundador{
+      margin-left: 120px; 
+      font-size: 20px;
+      padding: 0px 25px;
+      color: black;
+  }
+  h2{ margin-left: 0px;
+      padding: 0px 25px;
+      text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; background-color: lightseagreen;}
+
+.tablaMonte{text-align: center;
+width: 25%;
+margin-left: 150px; 
+font-size: 20px;
+padding: 0px 30px
+}
+th, td{border: solid 5px whitesmoke;}
+p{text-align: center;}
+th, td{border: solid 5px whitesmoke; background-color: aqua;}

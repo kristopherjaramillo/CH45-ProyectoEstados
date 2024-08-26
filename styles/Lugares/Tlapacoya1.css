@@ -1,0 +1,54 @@
+body{background-image: url(../images/tlapacoya.webp);}
+.menuLateral {
+    height: 100%;
+    width: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: slategray;
+    overflow-x: hidden;
+    padding: 20px 20px 0px 0px; 
+  }
+  
+  .menuLateral a {
+   
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  
+  .menuLateral a:hover {
+    color: red;}
+
+    .titulo1{font-size: 30px;
+      margin-left: 140px;
+      padding: 0px 25px;
+      text-align: center;
+      background-color: lightblue ;
+      font-family: Impact,'Arial Narrow Bold', sans-serif;}
+
+  .acercaDe1, .reseña{
+      margin-left: 120px; 
+      font-size: 20px;
+      padding: 0px 25px;
+      color: black;
+  }
+
+  h2{ margin-left: 0px;
+      padding: 0px 25px;
+      text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; background-color: lightseagreen;}
+
+.tablaTlapacoya{text-align: center;
+width: 25%;
+margin-left: 150px; 
+font-size: 20px;
+padding: 0px 30px
+}
+th, td{border: solid 5px whitesmoke; background-color: aqua;}
+#reseña1, #reseña2{text-align: center; background-color: antiquewhite;}
+#ubicacion1{
+  margin-left: 0px;
+      padding: 0px 25px;
+      text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; background-color: lightseagreen;}
+      #mapa{text-align: center;}
+      

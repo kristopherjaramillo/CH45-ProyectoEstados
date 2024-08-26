@@ -1,0 +1,36 @@
+body{background-image: url(./images/Cielo.webp); background-size: contain;}
+.menuLateral {
+    height: 100%;
+    width: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: slategray;
+    overflow-x: hidden;
+    padding: 20px 20px 0px 0px; 
+  }
+  
+  .menuLateral a {
+   
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  
+  .menuLateral a:hover {
+    color: red;
+  }
+  
+  .titulo{margin-left: 140px;
+  padding: 0px 25px;
+  text-align: center;
+  background-color: lightblue ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+  .form{
+    margin-left: 140px;
+    padding: 0px 25px;
+   text-align: center; color: black; font-size: 30px;}
+   label{background-color: lightblue;}
+
+

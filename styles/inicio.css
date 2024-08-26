@@ -1,0 +1,58 @@
+body{background-image: url(./images/Cerroelefante.webp); background-size: cover;}
+
+.menuLateral {
+    height: 100%;
+    width: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: slategray;
+    overflow-x: hidden;
+    padding: 20px 20px 0px 0px; 
+  }
+  
+  .menuLateral a {
+   
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  
+  .menuLateral a:hover {
+    color: red;
+  }
+  
+  
+  .introduccion{
+    margin-left: 120px; 
+    font-size: 20px;
+    padding: 0px 25px;
+  }
+  .titulo {
+    margin-left: 140px;
+    padding: 0px 25px;
+    text-align: center;
+    background-color: lightblue ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  h2{
+    margin-left: 0px;
+    padding: 0px 25px;
+    text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; background-color: lightgray;}
+.municipios{
+     margin-left: 0%;
+     padding: 0px 25px;
+    text-align: center;
+}
+.mapaGoogle{
+    margin-left: 120px;
+    padding: 0px 25px;
+    text-align: center;    
+}
+#imgGlifo{
+    text-align: center;
+    padding: 0px 25px;
+    margin-left: 120px;
+}
+
+
